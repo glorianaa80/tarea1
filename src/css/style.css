@@ -1,0 +1,87 @@
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+.table, th, td {
+  border: 1px solid coral;
+  border-collapse: collapse;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center; }
+
+label {
+  margin-left: 0.5%; }
+
+th {
+  color: coral; }
+
+.table {
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px; }
+
+.container {
+  padding: 10px;
+  border-radius: 10px; }
+
+.btn {
+  width: 8%;
+  padding: 0.5%;
+  margin-left: 1%;
+  margin-top: 2%;
+  border: 1px solid coral;
+  border-radius: 50px;
+  background-color: white;
+  font-size: 0.75rem;
+  display: inline-block; }
+
+.der {
+  margin-left: 40%; }
+
+.btn:hover {
+  background-color: coral;
+  border: 1px solid coral;
+  color: white; }
+
+.name {
+  width: 20%;
+  padding: 0.5%;
+  font-size: 0.8rem;
+  border: 1px solid coral;
+  border-radius: 50px; }
+
+.amount {
+  width: 20%;
+  padding: 0.5%;
+  font-size: 0.8rem;
+  border: 1px solid coral;
+  border-radius: 50px; }
+
+.date {
+  width: 20%;
+  padding: 0.5%;
+  font-size: 0.8rem;
+  border: 1px solid coral;
+  border-radius: 50px; }
+
+.type {
+  width: 20%;
+  padding: 0.5%;
+  font-size: 0.8rem;
+  border: 1px solid coral;
+  border-radius: 50px;
+  background-color: white; }
+
+.efectivo {
+  border: 1px solid coral;
+  padding: 10px;
+  margin: 1%;
+  border-radius: 10px; }
+
+.total {
+  padding-left: 55%; }
+
+.numero {
+  float: right;
+  margin-right: 12%; }
+
+/*# sourceMappingURL=style.css.map */

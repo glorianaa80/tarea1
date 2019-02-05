@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>JavaScript Tarea</title>
+</head>
+<body>
+  <h1>Tarea</h1>
+  <div class="container">
+    <form action="#">
+      <label for="name"> Name</label>
+      <input type="text" id="name" class="name" placeholder="Name">
+      <label for="amount">Amount</label>
+      <input type="number" id="amount" class="amount" placeholder="Amount">
+      <label for="date">Date</label>
+      <input type="date" id="date" class="date" placeholder="Date">
+      <label for="type">Type</label>
+      <select id="type" class="type">
+        <option value="A"> A</option>
+        <option value="B"> B</option>
+        <option value="C"> C</option>
+      </select>
+      <button class="btn der">RESET</button>
+      <button class="btn">SAVE</button>
+    </form>
+  </div>
+  <div>
+    <table class="table">
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Date</th>
+        <th>Amount</th>
+      </tr>
+      <tr>
+        <td>hola</td>
+        <td>A</td>
+        <td>19-01-2019</td>
+        <td>10,000</td>
+      </tr>
+      <tr>
+          <td>adios</td>
+          <td>C</td>
+          <td>19-01-2019</td>
+          <td>500,000</td>
+        </tr>
+        <tr>
+            <td>mundo</td>
+            <td>B</td>
+            <td>19-01-2019</td>
+            <td>900,000</td>
+          </tr>
+    </table>
+  </div>
+  
+  <div class="efectivo">
+      <span class="total" >Total A</span>
+      <span class="numero">0</span>
+  </div>
+  <div class="efectivo">
+      <span class="total" >Total B</span>
+      <span class="numero">0</span>
+  </div>
+  <div class="efectivo">
+      <span class="total" >Total C</span>
+      <span class="numero">0</span>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
