@@ -9,7 +9,7 @@
 <body>
   <h1>Tarea</h1>
   <div class="container">
-    <form action="#">
+    <form action="#" id="formulario">
       <label for="name"> Name</label>
       <input type="text" id="name" class="name" placeholder="Name">
       <label for="amount">Amount</label>
@@ -18,55 +18,44 @@
       <input type="date" id="date" class="date" placeholder="Date">
       <label for="type">Type</label>
       <select id="type" class="type">
-        <option value="A"> A</option>
-        <option value="B"> B</option>
-        <option value="C"> C</option>
+        <option value="A">Option A</option>
+        <option value="B">Option B</option>
+        <option value="C">Option C</option>
       </select>
-      <button class="btn der">RESET</button>
-      <button class="btn">SAVE</button>
+      <input type="reset" class="btn der" id="reset" value="RESET">
+      <input type="reset" id="save" class="btn" value="SAVE">
     </form>
   </div>
   <div>
-    <table class="table">
-      <tr>
-        <th>Name</th>
-        <th>Type</th>
-        <th>Date</th>
-        <th>Amount</th>
-      </tr>
-      <tr>
-        <td>hola</td>
-        <td>A</td>
-        <td>19-01-2019</td>
-        <td>10,000</td>
-      </tr>
-      <tr>
-          <td>adios</td>
-          <td>C</td>
-          <td>19-01-2019</td>
-          <td>500,000</td>
-        </tr>
+    <table class="table" id="tablita">
+      <thead>
         <tr>
-            <td>mundo</td>
-            <td>B</td>
-            <td>19-01-2019</td>
-            <td>900,000</td>
-          </tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Date</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody id="factura">
+
+      </tbody>
+
     </table>
   </div>
   
   <div class="efectivo">
-      <span class="total" >Total A</span>
+      <span class="total" id="a" >Total A</span>
       <span class="numero">0</span>
   </div>
   <div class="efectivo">
-      <span class="total" >Total B</span>
+      <span class="total" id="b">Total B</span>
       <span class="numero">0</span>
   </div>
   <div class="efectivo">
-      <span class="total" >Total C</span>
+      <span class="total" id="c" >Total C</span>
       <span class="numero">0</span>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
