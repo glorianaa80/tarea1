@@ -23,17 +23,17 @@
         <option value="C">Option C</option>
       </select>
       <input type="reset" class="btn der" id="reset" value="RESET">
-      <input type="reset" id="save" class="btn" value="SAVE">
+      <input type="button"  id="save" class="btn" value="SAVE">
     </form>
   </div>
   <div>
     <table class="table" id="tablita">
       <thead>
         <tr>
-          <th>Name</th>
-          <th>Type</th>
-          <th>Date</th>
-          <th>Amount</th>
+          <th id="table-name">Name</th>
+          <th id="table-type">Type</th>
+          <th id="table-date">Date</th>
+          <th id="table-amount">Amount</th>
         </tr>
       </thead>
       <tbody id="factura">
@@ -44,16 +44,16 @@
   </div>
   
   <div class="efectivo">
-      <span class="total" id="a" >Total A</span>
-      <span class="numero">0</span>
+      <span class="total" >Total A</span>
+      <span class="numero" id="a">0</span>
   </div>
   <div class="efectivo">
-      <span class="total" id="b">Total B</span>
-      <span class="numero">0</span>
+      <span class="total" >Total B</span>
+      <span class="numero" id="b">0</span>
   </div>
   <div class="efectivo">
-      <span class="total" id="c" >Total C</span>
-      <span class="numero">0</span>
+      <span class="total">Total C</span>
+      <span class="numero" id="c" >0</span>
   </div>
 
   <script src="script.js"></script>
